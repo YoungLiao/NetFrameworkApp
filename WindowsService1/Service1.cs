@@ -27,7 +27,7 @@ namespace WindowsService1
             timer1.Enabled = true;
         }
 
-        public void OnStop()
+        public void Dispose()
         {
             timer1.Enabled = false;
         }
